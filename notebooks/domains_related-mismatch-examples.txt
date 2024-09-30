@@ -1,0 +1,3051 @@
+
+INPUT
+business_name:FRESH CANTEEN line1:163 STERLING ROAD #147 line2: city:TORONTO state:ONTARIO postal_code:M6N 2V7 country:CA currency:cad email:jhume01@rogers.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'FRESH CANTEEN',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6N 2V7',
+    'province_state': 'ON',
+    'street_address': '163 STERLING ROAD, UNIT 147'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'FRESH CANTEEN',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['rogers.com'],
+    'flag': 'certain',
+    'postal_code': 'M6N 2V7',
+    'province_state': 'ON',
+    'street_address': '163 Sterling Road'}
+
+====================
+INPUT
+business_name:BULL & FIRKIN line1:1835 YONGE STREET line2: city:TORONTO state:ONTARIO postal_code:M4S 1X8 country:CA currency:cad email:bull.firkin@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'BULL & FIRKIN',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4S 1X8',
+    'province_state': 'ON',
+    'street_address': '1835 YONGE STREET'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'BULL & FIRKIN',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M4S 1X8',
+    'province_state': 'ON',
+    'street_address': '1835 Yonge Street'}
+
+====================
+INPUT
+business_name:PINEAPPLE SAGE CATERING & F.F line1:218 RAGLAND STREET line2: city:FLESHERTON state:ONTARIO postal_code:N0C 1E0 country:CA currency:cad email:pineapplesagefinefoods@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'PINEAPPLE SAGE CATERING & F.F',
+    'city': 'Flesherton',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N0C 1E0',
+    'province_state': 'CA',
+    'street_address': '218 Ragland Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Pineapple Sage Catering & F.F',
+    'city': 'Flesherton',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'N0C 1E0',
+    'province_state': 'ON',
+    'street_address': '218 Ragland Street'}
+
+====================
+INPUT
+business_name:The Block House line1:The BlockHouse Jennifer Bratcher St. Hedwig line2: city:San Antonio state:TX postal_code: country:US currency:usd email:jkramsey8@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'The Block House',
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': 'TX',
+    'street_address': 'Jennifer Bratcher St'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'The Block House',
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': '12345',
+    'province_state': 'TX',
+    'street_address': 'BlockHouse Jennifer Bratcher St. Hedwig'}
+
+====================
+INPUT
+business_name:Aroma College line1:Aroma College 540 College St. line2: city:Toronto state:ON postal_code:M6G 1A6 country: currency:cad email:yasamanmag@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Aroma College',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6G 1A6',
+    'province_state': 'ON',
+    'street_address': '540 College St.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Aroma College',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6G 1A6',
+    'province_state': 'ON',
+    'street_address': '540 College St.'}
+
+====================
+INPUT
+business_name:Isela's Tacos line1:Isela's Tacos 3650 Culebra Rd, line2: city:San Antonio state:TX postal_code:78228 country:US currency:usd email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': "Isela's Tacos",
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '78228',
+    'province_state': 'TX',
+    'street_address': '3650 Culebra Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Isela's Tacos",
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': '78228',
+    'province_state': 'TX',
+    'street_address': '3650 Culebra Rd'}
+
+====================
+INPUT
+business_name:El Potosino Méxican Restaurant line1:El Potosino Méxican Restaurant 7243 San Pedro Ave, line2: city:San Antonio state:TX postal_code:78216 country:US currency:usd email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'El Potosino Méxican Restaurant',
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '78216',
+    'province_state': 'TX',
+    'street_address': '7243 San Pedro Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'El Potosino Mexican Restaurant',
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': ['sanpedroave.com'],
+    'flag': 'certain',
+    'postal_code': '78216',
+    'province_state': 'TX',
+    'street_address': '7243 San Pedro Ave'}
+
+====================
+INPUT
+business_name:MUELLE 58 line1:MUELLE 58 19903 STONE OAK PKWY SUITE 203 line2: city:SAN ANTONIO state:TX postal_code:78258 country:US currency:usd email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'MUELLE 58',
+    'city': 'SAN ANTONIO',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '78258',
+    'province_state': 'TX',
+    'street_address': '19903 STONE OAK PKWY SUITE 203'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'MUELLE 58',
+    'city': 'San Antonio',
+    'country': 'US',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': '78258',
+    'province_state': 'TX',
+    'street_address': '19903 Stone Oak Parkway Suite 203'}
+
+====================
+INPUT
+business_name:Plank Restobar - Oakville line1:67 Bronte Road line2: city:Oakville state:Ontario postal_code:L6L 3B7 country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Plank Restobar',
+    'city': 'Oakville',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L6L 3B7',
+    'province_state': 'ON',
+    'street_address': '67 Bronte Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Plank Restobar',
+    'city': 'Oakville',
+    'country': 'CA',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'L6L 3B7',
+    'province_state': 'ON',
+    'street_address': '67 Bronte Road'}
+
+====================
+INPUT
+business_name:Dee Marshall-Pulchinski line1:17 Earls Court line2: city:East Gwillimbury state:Ontario postal_code:L9N 1E5 country:CA currency:cad email:deeproff17@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Dee Marshall-Pulchinski',
+    'city': 'East Gwillimbury',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L9N 1E5',
+    'province_state': 'ON',
+    'street_address': '17 Earls Court'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Dee Marshall-Pulchinski',
+    'city': 'East Gwillimbury',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L9N 1E5',
+    'province_state': 'ON',
+    'street_address': '17 Earls Court'}
+
+====================
+INPUT
+business_name:Aamir Mian line1:57 First Ave line2: city:Toronto state:ON postal_code:M4M 1W7 country:CA currency:cad email:alaadin24@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Aamir Mian',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4M 1W7',
+    'province_state': 'ON',
+    'street_address': '57 First Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Aamir Mian',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': 'M4M 1W7',
+    'province_state': 'ON',
+    'street_address': '57 First Ave'}
+
+====================
+INPUT
+business_name:Jenna Marie Wakani line1:158 Sheridan Ave line2: city:Toronto state:ON postal_code:M6K 2H5 country:Canada currency:cad email:jwakani@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Jenna Marie Wakani',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 2H5',
+    'province_state': 'ON',
+    'street_address': '158 Sheridan Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Jenna Marie Wakani',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6K 2H5',
+    'province_state': 'ON',
+    'street_address': '158 Sheridan Ave'}
+
+====================
+INPUT
+business_name:Julienne Diva line1:1022-1190 Dundas St. East line2: city:Toronto state:ON postal_code:M4M 0C5 country:Canada currency:cad email:julzdiva@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Julienne Diva',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4M 0C5',
+    'province_state': 'ON',
+    'street_address': '1190 Dundas St. East, Unit 1022'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Julienne Diva',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M4M 0C5',
+    'province_state': 'ON',
+    'street_address': '1022-1190 Dundas St. East'}
+
+====================
+INPUT
+business_name:Carmelito Café - Preston line1: line2: city: state: postal_code: country: currency:cad email:krami@iflextax.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Carmelito Café - Preston',
+    'city': '',
+    'country': 'CA',
+    'domains_related': ['carmelitocafe.com'],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Carmelito Café',
+    'city': 'likely',
+    'country': '',
+    'domains_related': ['iflextax.ca'],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'Preston'}
+
+====================
+INPUT
+business_name:Andrew Youngson line1:Andrew Youngson 1496 Queen St West line2: city:Toronto state:ON postal_code:M6K1M4 country:CA currency:cad email:andrewyoungson1@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Andrew Youngson',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M4',
+    'province_state': 'ON',
+    'street_address': '1496 Queen St West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Andrew Youngson',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M4',
+    'province_state': 'ON',
+    'street_address': '1496 Queen St West'}
+
+====================
+INPUT
+business_name:El Almacen Yerba Mate Cafe line1:El Almacen Yerba Mate Cafe 1917 Weston Rd line2: city:Toronto state:ON postal_code:M9N 1W7 country: currency:cad email:elalmacenrodriguez@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'El Almacen Yerba Mate Cafe',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M9N 1W7',
+    'province_state': 'ON',
+    'street_address': '1917 Weston Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'El Almacen Yerba Mate Cafe',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M9N 1W7',
+    'province_state': 'ON',
+    'street_address': '1917 Weston Rd'}
+
+====================
+INPUT
+business_name:Melanie Walker line1:94 Dewson St. line2: city:Toronto state:Ontario postal_code:M6H 1H3 country:416-818-8443 currency:cad email:melaniejwalker@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Melanie Walker',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6H 1H3',
+    'province_state': 'ON',
+    'street_address': '94 Dewson St.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Melanie Walker',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6H 1H3',
+    'province_state': 'Ontario',
+    'street_address': '94 Dewson St.'}
+
+====================
+INPUT
+business_name:Sam Gregg-Wallace line1:1137 Gladstone Ave. line2: city:Ottawa state:ON postal_code:K1Y 3H4 country:CA currency:cad email:sjgreggwallace@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Sam Gregg-Wallace',
+    'city': 'Ottawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K1Y 3H4',
+    'province_state': 'ON',
+    'street_address': '1137 Gladstone Ave.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Sam Gregg-Wallace',
+    'city': 'Ottawa',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'K1Y 3H4',
+    'province_state': 'ON',
+    'street_address': '1137 Gladstone Ave.'}
+
+====================
+INPUT
+business_name:Lev Bakery line1:Lev Bakery Ltd. 801 St Clarens Ave. line2: city:Toronto state:ON postal_code: country: currency:cad email:levbakeryto@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Lev Bakery',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6H 3X5',
+    'province_state': 'ON',
+    'street_address': '801 St Clarens Ave.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Lev Bakery',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M1W G8L',
+    'province_state': 'ON',
+    'street_address': '801 St Clarens Ave'}
+
+====================
+INPUT
+business_name:Nancy Morton line1:40 Delisle Ave. #905 line2: city:Toronto state:Ontario postal_code:M4V 1S6 country:416-825-7787 currency:cad email:nmorton022248@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Nancy Morton',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4V 1S6',
+    'province_state': 'ON',
+    'street_address': '40 Delisle Ave. Unit 905'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Nancy Morton',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M4V 1S6',
+    'province_state': 'ON',
+    'street_address': '40 Delisle Ave.'}
+
+====================
+INPUT
+business_name:Dundas Video line1:831 Dundas St. W line2: city:Toronto state:ON postal_code:M6J 1V4 country:CA currency:cad email:bookings831dundas@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Dundas Video',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6J 1V4',
+    'province_state': 'ON',
+    'street_address': '831 Dundas St. W'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Dundas Video',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6J 1V4',
+    'province_state': 'ON',
+    'street_address': '831 Dundas St W'}
+
+====================
+INPUT
+business_name:THE HURON CLUB line1:94 PINE STREET line2: city:COLLINGWOOD state:ONTARIO postal_code:L9Y 2N9 country:CA currency:cad email:huronclubmanager@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'THE HURON CLUB',
+    'city': 'COLLINGWOOD',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'ON',
+    'street_address': '94 PINE STREET'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Huron Club',
+    'city': 'Collingwood',
+    'country': 'CA',
+    'domains_related': ['huronclub.com'],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'ON',
+    'street_address': '94 Pine Street'}
+
+====================
+INPUT
+business_name:Elaine Shiu line1:93 Dawlish Ave line2:(416) 230-4163 city:Toronto state:Ontario postal_code:M4N 1H2 country:CA currency:cad email:lui.elaine@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Elaine Shiu',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4N 1H2',
+    'province_state': 'ON',
+    'street_address': '93 Dawlish Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Elaine Shiu',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M4N 1H2',
+    'province_state': 'Ontario',
+    'street_address': '93 Dawlish Ave'}
+
+====================
+INPUT
+business_name:Erin Truax line1:303-60 Colborne Street line2: city:Toronto state:ON postal_code:M5E 0B7 country:Canada currency:cad email:erinmtruax@icloud.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Erin Truax',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5E 0B7',
+    'province_state': 'ON',
+    'street_address': '303-60 Colborne Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Erin Truax',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['icloud.com'],
+    'flag': 'certain',
+    'postal_code': 'M5E 0B7',
+    'province_state': 'ON',
+    'street_address': '60 Colborne Street'}
+
+====================
+INPUT
+business_name:Everton Gooden line1:453 Deloraine Avenue line2: city:Toronto state:ON postal_code:M5M 2C1 country:CA currency:cad email:evertongooden@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Everton Gooden',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5M 2C1',
+    'province_state': 'ON',
+    'street_address': '453 Deloraine Avenue'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Everton Gooden',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'M5M 2C1',
+    'province_state': 'ON',
+    'street_address': '453 Deloraine Avenue'}
+
+====================
+INPUT
+business_name:Gatto Wood Oven line1:2312 Bloor Street West line2:Toronto, ON  city: state: postal_code: country:CA currency:cad email:gattobistro@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Gatto Wood Oven',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6S 1P3',
+    'province_state': 'ON',
+    'street_address': '2312 Bloor Street West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Gatto',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'M1W',
+    'province_state': 'ON',
+    'street_address': '2312 Bloor Street West'}
+
+====================
+INPUT
+business_name:Hugh Wallis line1:478 Cam Fella Blvd. line2: city:Stouffville state:ON postal_code:L4A 7G8 country:Canada currency:cad email:hughwallis@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Hugh Wallis',
+    'city': 'Stouffville',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4A 7G8',
+    'province_state': 'ON',
+    'street_address': '478 Cam Fella Blvd.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Hugh Wallis',
+    'city': 'Stouffville',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L4A 7G8',
+    'province_state': 'ON',
+    'street_address': '478 Cam Fella Blvd.'}
+
+====================
+INPUT
+business_name:Lorna Hundt line1:3012 Old Mill Road line2: city:Kitchener state:ON postal_code:N2P 1E2 country:Canada currency:cad email:lornamhundt@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Lorna Hundt',
+    'city': 'Kitchener',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'likely',
+    'postal_code': 'N2P 1E2',
+    'province_state': 'ON',
+    'street_address': '3012 Old Mill Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Lorna Hundt',
+    'city': 'Kitchener',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'N2P 1E2',
+    'province_state': 'ON',
+    'street_address': '3012 Old Mill Road'}
+
+====================
+INPUT
+business_name:Myles Fisher line1:88 Potter Crescent line2: city:Tottenham state:ON postal_code:L0G 1W0 country:Canada currency:cad email:mylesfisher@hotmail.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Myles Fisher',
+    'city': 'Tottenham',
+    'country': 'CA',
+    'domains_related': ['hotmail.ca'],
+    'flag': 'certain',
+    'postal_code': 'L0G 1W0',
+    'province_state': 'ON',
+    'street_address': '88 Potter Crescent'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Myles Fisher',
+    'city': 'Tottenham',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L0G 1W0',
+    'province_state': 'ON',
+    'street_address': '88 Potter Crescent'}
+
+====================
+INPUT
+business_name:Nic Burton line1:54 Avonlea Blvd line2: city:East York state:ON postal_code:M4C 5E5 country:Canada currency:cad email:naburton@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Nic Burton',
+    'city': 'East York',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4C 5E5',
+    'province_state': 'ON',
+    'street_address': '54 Avonlea Blvd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Nic Burton',
+    'city': 'East York',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M4C 5E5',
+    'province_state': 'ON',
+    'street_address': '54 Avonlea Blvd'}
+
+====================
+INPUT
+business_name:Sarah Fawzy line1:37 York View Drive line2: city:Toronto state:ON postal_code:M8Z 2G1 country:Canada currency:cad email:fawzysarah@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Sarah Fawzy',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M8Z 2G1',
+    'province_state': 'ON',
+    'street_address': '37 York View Drive'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Sarah Fawzy',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M8Z 2G1',
+    'province_state': 'ON',
+    'street_address': '37 York View Drive'}
+
+====================
+INPUT
+business_name:Queen and Beaver # 90608 line1:35 Elm Street line2:License # 90608 city: state: postal_code: country: currency:cad email:jamieson.kerr@queedbeaverpub.ca linked_emails:
+OPENAI
+{   'business_identification_number': '90608',
+    'business_name': 'Queen and Beaver',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['queenandbeaverpub.ca'],
+    'flag': 'certain',
+    'postal_code': 'M5G 1H1',
+    'province_state': 'ON',
+    'street_address': '35 Elm Street'}
+
+COHERE
+{   'business_identification_number': '90608',
+    'business_name': 'Queen and Beaver',
+    'city': 'Toronto',
+    'country': '',
+    'domains_related': ['queedbeaverpub.ca'],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': '35 Elm Street'}
+
+====================
+INPUT
+business_name:Susan McGrath (Jennifer Hyndman) line1:7 Heydon Park Road line2: city:Toronto state:ON postal_code:M6J 2C7 country:CA currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Susan McGrath (Jennifer Hyndman)',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6J 2C7',
+    'province_state': 'ON',
+    'street_address': '7 Heydon Park Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Susan McGrath',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'M6J 2C7',
+    'province_state': 'ON',
+    'street_address': '7 Heydon Park Road'}
+
+====================
+INPUT
+business_name:Mila Mexican Restaurant & Bar line1:40 Winges Rd Unit 5 line2: city:Woodbridge state:ON postal_code:L4L 6B2 country: currency:cad email:milasmexican@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Mila Mexican Restaurant & Bar',
+    'city': 'Woodbridge',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4L 6B2',
+    'province_state': 'ON',
+    'street_address': '40 Winges Rd Unit 5'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Mila Mexican Restaurant & Bar',
+    'city': 'Woodbridge',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L4L 6B2',
+    'province_state': 'ON',
+    'street_address': '40 Winges Road Unit 5'}
+
+====================
+INPUT
+business_name:My roti place (1376 queen) line1:My roti place (1376 queen) line2: city:1376 QUEEN ST W. TORONTO state:ON postal_code: country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'My roti place',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 1L7',
+    'province_state': 'ON',
+    'street_address': '1376 Queen St W'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'My roti Place',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M1W 1L9',
+    'province_state': 'ON',
+    'street_address': '1376 Queen Street'}
+
+====================
+INPUT
+business_name:FIn Whillans line1:4 McKay Crt line2: city:Dundas state:ON postal_code:L9H 6P1 country:Canada currency:cad email:fin.whillans@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'FIn Whillans',
+    'city': 'Dundas',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L9H 6P1',
+    'province_state': 'ON',
+    'street_address': '4 McKay Court'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'FIn Whillans',
+    'city': 'Dundas',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L9H 6P1',
+    'province_state': 'ON',
+    'street_address': '4 McKay Crt'}
+
+====================
+INPUT
+business_name:Francis Nguyen-Pham line1:6905 Vicar Gate line2: city:Mississauga state:ON postal_code:L5W 1C8 country:Canada currency:cad email:francis.nguyen.pham@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Francis Nguyen-Pham',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L5W 1C8',
+    'province_state': 'ON',
+    'street_address': '6905 Vicar Gate'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Francis Nguyen-Pham',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L5W 1C8',
+    'province_state': 'ON',
+    'street_address': '6905 Vicar Gate'}
+
+====================
+INPUT
+business_name:Jeanluc Michaud line1:7665 Verdier line2: city:Montreal state:QC postal_code:H1S 2J1 country:Canada currency:cad email:jeanlucjamesmichaud@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Jeanluc Michaud',
+    'city': 'Montreal',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'H1S 2J1',
+    'province_state': 'QC',
+    'street_address': '7665 Verdier'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Jeanluc Michaud',
+    'city': 'Montreal',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'H1S 2J1',
+    'province_state': 'QC',
+    'street_address': '7665 Verdier'}
+
+====================
+INPUT
+business_name:Ed Huang line1: line2: city: state: postal_code: country: currency:cad email:edhuang@live.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Ed Huang',
+    'city': '',
+    'country': '',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Ed Huang',
+    'city': 'state',
+    'country': '',
+    'domains_related': ['live.ca'],
+    'flag': 'likely',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:joshua garcia line1:2551 Vista Dr #B301 line2: city:Juneau state:ON postal_code:L4M 3C1 country:Canada currency:cad email:3223Sdasd@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'joshua garcia',
+    'city': 'Juneau',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4M 3C1',
+    'province_state': 'ON',
+    'street_address': '2551 Vista Dr, Unit B301'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'joshuagarcia',
+    'city': 'Juneau',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L4M 3C1',
+    'province_state': 'ON',
+    'street_address': '2551 Vista Dr B301'}
+
+====================
+INPUT
+business_name:Jun Jun line1:26517 Danti Court line2: city:Hayward state:CA postal_code:94545 country:United States (US) currency:cad email:kimmyluna660@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Jun Jun',
+    'city': 'Hayward',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '94545',
+    'province_state': 'CA',
+    'street_address': '26517 Danti Court'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Jun Jun',
+    'city': 'Hayward',
+    'country': 'US',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': '94545',
+    'province_state': 'CA',
+    'street_address': '26517 Danti Court'}
+
+====================
+INPUT
+business_name:Kevin Parnell line1:60 Bellwoods Ave. line2: city:Toronto state:ON postal_code:M6J 2P4 country:Canada currency:cad email:khparnell@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Kevin Parnell',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6J 2P4',
+    'province_state': 'ON',
+    'street_address': '60 Bellwoods Ave.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Kevin Parnell',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6J 2P4',
+    'province_state': 'ON',
+    'street_address': '60 Bellwoods Ave.'}
+
+====================
+INPUT
+business_name:Nicole Major line1:159 Rue de Roquebrune line2: city:Gatineau state:QC postal_code:J8T 7Y6 country:Canada currency:cad email:nicole.major@live.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Nicole Major',
+    'city': 'Gatineau',
+    'country': 'CA',
+    'domains_related': ['live.ca'],
+    'flag': 'certain',
+    'postal_code': 'J8T 7Y6',
+    'province_state': 'QC',
+    'street_address': '159 Rue de Roquebrune'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Nicole Major',
+    'city': 'Gatineau',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'J8T 7Y6',
+    'province_state': 'QC',
+    'street_address': '159 Rue de Roquebrune'}
+
+====================
+INPUT
+business_name:Nora Hameiri Sayed line1:424 Queen St line2:424 city:Ottawa state:ON postal_code:K1R 5A8 country:ca currency:cad email:nora.sayed02@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Nora Hameiri Sayed',
+    'city': 'Ottawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K1R 5A8',
+    'province_state': 'ON',
+    'street_address': '424 Queen St'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Nora Hameiri Sayed',
+    'city': 'Ottawa',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'K1R 5A8',
+    'province_state': 'ON',
+    'street_address': '424 Queen St'}
+
+====================
+INPUT
+business_name:Rehana Din line1:302 - 1710 Bayshore Drive line2: city:Vancouver state:BC postal_code:V6G 3G4 country:ca currency:cad email:rehanadin@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Rehana Din',
+    'city': 'Vancouver',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'V6G 3G4',
+    'province_state': 'BC',
+    'street_address': '302-1710 Bayshore Drive'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Rehana Din',
+    'city': 'Vancouver',
+    'country': 'ca',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': 'V6G 3G4',
+    'province_state': 'BC',
+    'street_address': '1710 Bayshore Drive'}
+
+====================
+INPUT
+business_name:sam kapsimalis line1:84 olivewood dr. line2: city:markham state:ON postal_code:L3S 3E2 country:ca currency:cad email:Skapsimalis@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'sam kapsimalis',
+    'city': 'Markham',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3S 3E2',
+    'province_state': 'ON',
+    'street_address': '84 Olivewood Dr.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'sam kapsimalis',
+    'city': 'markham',
+    'country': 'ca',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L3S 3E2',
+    'province_state': 'ON',
+    'street_address': '84 olivewood dr.'}
+
+====================
+INPUT
+business_name:Seohyun Lee line1:9 BOGERT AVE line2:Unit 3202 city:Toronto state:ON postal_code:M2N 0H3 country:ca currency:cad email:seo98153@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Seohyun Lee',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M2N 0H3',
+    'province_state': 'ON',
+    'street_address': '9 BOGERT AVE, Unit 3202'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Seohyun Lee',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M2N 0H3',
+    'province_state': 'ON',
+    'street_address': '9 Bogert Ave, Unit 3202'}
+
+====================
+INPUT
+business_name:stephanie spencer line1:808 McLaren street line2: city:North bay state:ON postal_code:P1B 3L8 country:Canada currency:cad email:stephanie_spencer@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Stephanie Spencer',
+    'city': 'North Bay',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'P1B 3L8',
+    'province_state': 'ON',
+    'street_address': '808 McLaren Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'stephanie spencer',
+    'city': 'North Bay',
+    'country': 'CA',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'P1B 3L8',
+    'province_state': 'ON',
+    'street_address': '808 McLaren Street'}
+
+====================
+INPUT
+business_name:Vivian Chung line1:59 Wilderness Dr line2: city:Scarborough state:ON postal_code:M1V 3P4 country:ca currency:cad email:vchung.91@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Vivian Chung',
+    'city': 'Scarborough',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M1V 3P4',
+    'province_state': 'ON',
+    'street_address': '59 Wilderness Dr'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Vivian Chung',
+    'city': 'Scarborough',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M1V 3P4',
+    'province_state': 'ON',
+    'street_address': '59 Wilderness Drive'}
+
+====================
+INPUT
+business_name:Alessandro Pietropaolo line1:Alessandro Pietropaolo line2:797 College city:toronto state:ON postal_code:M6G1C7 country:ca currency:cad email:alessandrino@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Alessandro Pietropaolo',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6G 1C7',
+    'province_state': 'ON',
+    'street_address': '797 College'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Alessandro Pietropaolo',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6G 1C7',
+    'province_state': 'ON',
+    'street_address': '797 College'}
+
+====================
+INPUT
+business_name:Sara Windrim line1:89 Neville Park Boulevard line2: city:Toronto state:ON postal_code:M4E 3P7 country:ca currency:cad email:buckleb@tcd.ie linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Sara Windrim',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M4E 3P7',
+    'province_state': 'ON',
+    'street_address': '89 Neville Park Boulevard'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Sara Windrim',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['tcd.ie'],
+    'flag': 'certain',
+    'postal_code': 'M4E 3P7',
+    'province_state': 'ON',
+    'street_address': '89 Neville Park Boulevard'}
+
+====================
+INPUT
+business_name:Stephanie Willsey line1:3163 Fairgrounds Road line2: city:Severn state:ON postal_code:L3V0Y2 country:ca currency:cad email:steph.willsey@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Stephanie Willsey',
+    'city': 'Severn',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3V 0Y2',
+    'province_state': 'ON',
+    'street_address': '3163 Fairgrounds Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Stephanie Willsey',
+    'city': 'Severn',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L3V 0Y2',
+    'province_state': 'ON',
+    'street_address': '3163 Fairgrounds Road'}
+
+====================
+INPUT
+business_name:Ted s Collision & Body Repair line1: line2: city: state: postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Ted s Collision & Body Repair',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Ted's Collision & Body Repair",
+    'city': 'state',
+    'country': 'ca',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'M1W G8L',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Ocean Grove Liquor Store line1:2050 College Drive line2: city:Campbell River state:British columbia postal_code:V9M 1T8 country: currency:cad email:oceangroveliquor@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Ocean Grove Liquor Store',
+    'city': 'Campbell River',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'V9M 1T8',
+    'province_state': 'BC',
+    'street_address': '2050 College Drive'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Ocean Grove Liquor Store',
+    'city': 'Campbell River',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'V9M 1T8',
+    'province_state': 'BC',
+    'street_address': '2050 College Drive'}
+
+====================
+INPUT
+business_name:Holy Family Cathedral line1:123 Nelson Rd line2: city:Saskatoon state:Saskatchewan postal_code:S7S 1H1 country: currency:cad email:ukdancer1967@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Holy Family Cathedral',
+    'city': 'Saskatoon',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'S7S 1H1',
+    'province_state': 'SK',
+    'street_address': '123 Nelson Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Holy Family Cathedral',
+    'city': 'Saskatoon',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'S7S 1H1',
+    'province_state': 'SK',
+    'street_address': '123 Nelson Rd'}
+
+====================
+INPUT
+business_name:Earls Kitchen & Bar (South Albert) line1: line2: city: state: postal_code: country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Earls Kitchen & Bar (South Albert)',
+    'city': '',
+    'country': '',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Earls Kitchen & Bar',
+    'city': 'cannot extract',
+    'country': '',
+    'domains_related': '',
+    'flag': 'likely',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'South Albert'}
+
+====================
+INPUT
+business_name:Nosh Eatery and Tap line1:820 Broadway Ave line2: city:Saskatoon state:SK postal_code:S7N 1B6 country:Canada currency:cad email:nosheateryandtap@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Nosh Eatery and Tap',
+    'city': 'Saskatoon',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'S7N 1B6',
+    'province_state': 'SK',
+    'street_address': '820 Broadway Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Nosh Eatery and Tap',
+    'city': 'Saskatoon',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'S7N 1B6',
+    'province_state': 'SK',
+    'street_address': '820 Broadway Ave'}
+
+====================
+INPUT
+business_name:Floyd Manz line1: line2: city: state: postal_code: country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Floyd Manz',
+    'city': '',
+    'country': '',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Floyd Manz',
+    'city': 'cannot extract',
+    'country': '',
+    'domains_related': '',
+    'flag': 'likely',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Gaslight Cafe line1:7513 Main St line2: city:Louisbourg state:Nova Scotia postal_code:B1C 1H8 country:ca currency:cad email:brydenmomb@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Gaslight Cafe',
+    'city': 'Louisbourg',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'B1C 1H8',
+    'province_state': 'NS',
+    'street_address': '7513 Main St'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Gaslight Cafe',
+    'city': 'Louisbourg',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'B1C 1H8',
+    'province_state': 'NS',
+    'street_address': '7513 Main St'}
+
+====================
+INPUT
+business_name:Your Fathers Moustache line1:5686 Spring Garden Road line2: city:Halifax state:NS postal_code:B3J1H5 country: currency:cad email:yfmbruce@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Your Fathers Moustache',
+    'city': 'Halifax',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'B3J 1H5',
+    'province_state': 'NS',
+    'street_address': '5686 Spring Garden Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Your Fathers Moustache',
+    'city': 'Halifax',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'B3J 1H5',
+    'province_state': 'NS',
+    'street_address': '5686 Spring Garden Road'}
+
+====================
+INPUT
+business_name:TBS 2328 line1: line2: city: state: postal_code: country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'TBS',
+    'city': '',
+    'country': '',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'TBS',
+    'city': 'cannot extract',
+    'country': '',
+    'domains_related': '',
+    'flag': 'likely',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': '2328 line1 line2'}
+
+====================
+INPUT
+business_name:Local Public Eatery - Liberty Village #813698 line1:171 East Liberty Street line2:Unit 100 city:Toronto state:Ontario postal_code:M6K 3P6 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '813698',
+    'business_name': 'Local Public Eatery - Liberty Village',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 3P6',
+    'province_state': 'ON',
+    'street_address': '171 East Liberty Street, Unit 100'}
+
+COHERE
+{   'business_identification_number': '813698',
+    'business_name': 'Local Public Eatery',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['localpublic.com'],
+    'flag': 'certain',
+    'postal_code': 'M6K 3P6',
+    'province_state': 'ON',
+    'street_address': '171 East Liberty Street, Unit 100'}
+
+====================
+INPUT
+business_name:Queen's Pub #813070 line1:87 Union St. line2:John Deutsch Centre city:Kingston state:ON postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '813070',
+    'business_name': "Queen's Pub",
+    'city': 'Kingston',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K7L 3N6',
+    'province_state': 'ON',
+    'street_address': '87 Union St.,John Deutsch Centre'}
+
+COHERE
+{   'business_identification_number': '813070',
+    'business_name': "Queen's Pub",
+    'city': 'Kingston',
+    'country': 'CA',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'K7L 3N6',
+    'province_state': 'ON',
+    'street_address': '87 Union St, John Deutsch Centre'}
+
+====================
+INPUT
+business_name:Saint Tavern line1:227 Ossington Ave line2: city:Toronto state:Ontario postal_code:M6J 2Z8 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Saint Tavern',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6J 2Z8',
+    'province_state': 'ON',
+    'street_address': '227 Ossington Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Saint Tavern',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['ca'],
+    'flag': 'certain',
+    'postal_code': 'M6J 2Z8',
+    'province_state': 'Ontario',
+    'street_address': '227 Ossington Avenue'}
+
+====================
+INPUT
+business_name:Zephyr Mini Mart line1:13029 Concession 3 Rd line2: city:Zephyr state:ON postal_code:L0E 1T0 country: currency:cad email:zephyr_mini_mart@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Zephyr Mini Mart',
+    'city': 'Zephyr',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L0E 1T0',
+    'province_state': 'ON',
+    'street_address': '13029 Concession 3 Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Zephyr Mini Mart',
+    'city': 'Zephyr',
+    'country': 'CA',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L0E 1T0',
+    'province_state': 'ON',
+    'street_address': '13029 Concession 3 Road'}
+
+====================
+INPUT
+business_name:Drom Taberna line1:458 Queen St W line2: city:Toronto state:Ontario postal_code:M5V 2A8 country: currency:cad email:arn141stn@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Drom Taberna',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5V 2A8',
+    'province_state': 'ON',
+    'street_address': '458 Queen St W'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Drom Taberna',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M5V 2A8',
+    'province_state': 'Ontario',
+    'street_address': '458 Queen St W'}
+
+====================
+INPUT
+business_name:The 222 Ossington Bar line1:222 Ossington Ave line2: city:Toronto state:Ontario postal_code:M6J 2Z9 country:ca currency:cad email:michaeljboyd@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'The 222 Ossington Bar',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6J 2Z9',
+    'province_state': 'ON',
+    'street_address': '222 Ossington Ave'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'The 222 Ossington Bar',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6J 2Z9',
+    'province_state': 'Ontario',
+    'street_address': '222 Ossington Avenue'}
+
+====================
+INPUT
+business_name:Halley Rigbey line1: line2: city: state: postal_code: country:ca currency:cad email:jh1985@tuta.io linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Halley Rigbey',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Halley Rigbey',
+    'city': 'state',
+    'country': 'CA',
+    'domains_related': ['tuta.io'],
+    'flag': 'certain',
+    'postal_code': 'ca',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Lauren Wilkins (personal) line1: line2: city: state: postal_code: country:ca currency:cad email:lauren.wilkins@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Lauren Wilkins',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Lauren Wilkins',
+    'city': 'city',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Michael Gallo line1:156 Riverside Drive line2: city:Woodbridge state:ON postal_code:L4L 2L3 country:ca currency:cad email:mg.swansea@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Michael Gallo',
+    'city': 'Woodbridge',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4L 2L3',
+    'province_state': 'ON',
+    'street_address': '156 Riverside Drive'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Michael Gallo',
+    'city': 'Woodbridge',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L4L 2L3',
+    'province_state': 'ON',
+    'street_address': '156 Riverside Drive'}
+
+====================
+INPUT
+business_name:Sara Peel line1:220 Hamilton St. line2: city:Toronto state:Ontario postal_code:M5K 1B2 country:647-988-4959 currency:cad email:sarapeel@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Sara Peel',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5K 1B2',
+    'province_state': 'ON',
+    'street_address': '220 Hamilton St.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Sara Peel',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'M5K 1B2',
+    'province_state': 'Ontario',
+    'street_address': '220 Hamilton St.'}
+
+====================
+INPUT
+business_name:THE RESERVOIR LOUNGE line1:52 WELLINGTON STREET EAST line2: city:TORONTO state:ONTARIO postal_code:M5E 1C7 country:ca currency:cad email:thereservoirlounge@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'THE RESERVOIR LOUNGE',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5E 1C7',
+    'province_state': 'ON',
+    'street_address': '52 WELLINGTON STREET EAST'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Reservoir Lounge',
+    'city': 'TORONTO',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M5E 1C7',
+    'province_state': 'ON',
+    'street_address': '52 WELLINGTON STREET EAST'}
+
+====================
+INPUT
+business_name:IMPERFECT FRESH EATS  <QUEEN & SPADINA> line1:477 QUEEN STREET, WEST line2: city:TORONTO state:ON postal_code:M5V 2A9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'IMPERFECT FRESH EATS QUEEN & SPADINA',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5V 2A9',
+    'province_state': 'ON',
+    'street_address': '477 QUEEN STREET WEST'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'IMPERFECT FRESH EATS',
+    'city': 'TORONTO',
+    'country': 'CA',
+    'domains_related': ['imperfectfresheats.com'],
+    'flag': 'certain',
+    'postal_code': 'M5V 2A9',
+    'province_state': 'ON',
+    'street_address': '477 QUEEN STREET, WEST'}
+
+====================
+INPUT
+business_name:Ottawa Valley Coffee (Renfrew) line1:239 Raglan St S line2: city:Renfrew state:ON postal_code:K7V 1R3 country: currency:cad email:ottawavalleycoffee@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Ottawa Valley Coffee (Renfrew)',
+    'city': 'Renfrew',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K7V 1R3',
+    'province_state': 'ON',
+    'street_address': '239 Raglan St S'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Ottawa Valley Coffee',
+    'city': 'Renfrew',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'K7V 1R3',
+    'province_state': 'ON',
+    'street_address': '239 Raglan Street South'}
+
+====================
+INPUT
+business_name:Randy Baker line1:20 pirita rd line2: city:Pefferlaw state:ON postal_code:L0E 1N0 country:Canada currency:cad email:randybaker.mobile@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Randy Baker',
+    'city': 'Pefferlaw',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L0E 1N0',
+    'province_state': 'ON',
+    'street_address': '20 Pirita Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Randy Baker',
+    'city': 'Pefferlaw',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L0E 1N0',
+    'province_state': 'ON',
+    'street_address': '20 Pirita Road'}
+
+====================
+INPUT
+business_name:gerald arbus line1:260 Heath St W line2:508 city:York state:ON postal_code:M5P 3L6 country:Canada currency:cad email:gerald_arbus@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'gerald arbus',
+    'city': 'York',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M5P 3L6',
+    'province_state': 'ON',
+    'street_address': '260 Heath St W,'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Gerald Arbus',
+    'city': 'York',
+    'country': 'CA',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M5P 3L6',
+    'province_state': 'ON',
+    'street_address': '260 Heath Street West'}
+
+====================
+INPUT
+business_name:Alexandre Lemire line1:83 Rue Garneau line2: city:Gatineau state:QC postal_code:J8X 1S1 country:Canada currency:cad email:coffeeandtvandhairanddna@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Alexandre Lemire',
+    'city': 'Gatineau',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'J8X 1S1',
+    'province_state': 'QC',
+    'street_address': '83 Rue Garneau'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Alexandre Lemire',
+    'city': 'Gatineau',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'J8X 1S1',
+    'province_state': 'QC',
+    'street_address': '83 Rue Garneau'}
+
+====================
+INPUT
+business_name:Cabot Physiotherapy line1: line2: city: state: postal_code: country: currency:cad email:cabotphysio@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Cabot Physiotherapy',
+    'city': '',
+    'country': '',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Cabot Physiotherapy',
+    'city': 'Cabot',
+    'country': '',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:NILE RIVER RESTAURANT (12316145 CANADA) line1:598 COLLEGE STREET line2: city:Toronto state:ON postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '12316145',
+    'business_name': 'NILE RIVER RESTAURANT',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6G 1B3',
+    'province_state': 'ON',
+    'street_address': '598 College Street'}
+
+COHERE
+{   'business_identification_number': '12316145',
+    'business_name': 'NILE RIVER RESTAURANT',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['ca'],
+    'flag': 'certain',
+    'postal_code': 'M1W G8L',
+    'province_state': 'ON',
+    'street_address': '598 College Street'}
+
+====================
+INPUT
+business_name:Buffalo Wild Wings - Windsor line1:3100 Howard Avenue line2: city:Windsor state:ON postal_code:N8X 3Y8 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Buffalo Wild Wings - Windsor',
+    'city': 'Windsor',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N8X 3Y8',
+    'province_state': 'ON',
+    'street_address': '3100 Howard Avenue'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Buffalo Wild Wings',
+    'city': 'Windsor',
+    'country': 'ca',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'N8X 3Y8',
+    'province_state': 'ON',
+    'street_address': '3100 Howard Avenue'}
+
+====================
+INPUT
+business_name:5930 Walmart SSM North line1:446 Great Northern Road line2: city:Sault Ste Marie state:ON postal_code:P6B 4Z9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Walmart Sault Ste Marie North',
+    'city': 'Sault Ste Marie',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'P6B 4Z9',
+    'province_state': 'ON',
+    'street_address': '446 Great Northern Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Walmart',
+    'city': 'Sault Ste Marie',
+    'country': 'CA',
+    'domains_related': ['walmart.com'],
+    'flag': 'certain',
+    'postal_code': 'P6B 4Z9',
+    'province_state': 'ON',
+    'street_address': '446 Great Northern Road'}
+
+====================
+INPUT
+business_name:L.C.B.O. Store # 458 line1:25 Hillcrest Ave. line2:(Hurontario & Dundas) city:Mississauga state:ON postal_code:L5B 1K5 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'L.C.B.O. Store 458',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L5B 1K5',
+    'province_state': 'ON',
+    'street_address': '25 Hillcrest Ave.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'L.C.B.O.',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': ['lcbo'],
+    'flag': 'certain',
+    'postal_code': 'L5B 1K5',
+    'province_state': 'ON',
+    'street_address': '25 Hillcrest Ave.'}
+
+====================
+INPUT
+business_name:Shell #C07079 line1:520 King St W line2: city:Oshawa state:ON postal_code:L1J 2K9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '07079',
+    'business_name': 'Shell',
+    'city': 'Oshawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1J 2K9',
+    'province_state': 'ON',
+    'street_address': '520 King St W'}
+
+COHERE
+{   'business_identification_number': 'C07079',
+    'business_name': 'Shell',
+    'city': 'Oshawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1J 2K9',
+    'province_state': 'ON',
+    'street_address': '520 King St W'}
+
+====================
+INPUT
+business_name:Petro Canada line1:5739 Highway 7 E line2: city:Markham state:ON postal_code:L3P 1A9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Petro Canada',
+    'city': 'Markham',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3P 1A9',
+    'province_state': 'ON',
+    'street_address': '5739 Highway 7 E'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Petro Canada',
+    'city': 'Markham',
+    'country': 'CA',
+    'domains_related': ['ca'],
+    'flag': 'certain',
+    'postal_code': 'L3P 1A9',
+    'province_state': 'ON',
+    'street_address': '5739 Highway 7 E'}
+
+====================
+INPUT
+business_name:Red Lotus Restaurant line1:Central Parkway West line2: city:Mississauga state:ON postal_code:L5C 4P3 country:ca currency:cad email:danielxie1980@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '2730',
+    'business_name': 'Red Lotus Restaurant',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L5C 4P3',
+    'province_state': 'ON',
+    'street_address': 'Central Parkway West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Red Lotus Restaurant',
+    'city': 'Mississauga',
+    'country': 'ca',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L5C 4P3',
+    'province_state': 'ON',
+    'street_address': 'Central Parkway West'}
+
+====================
+INPUT
+business_name:Hi! Sushi line1:265 King George Rd line2: city:Brantford state:ON postal_code:N3R 6Y1 country:ca currency:cad email:hisushi265@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Hi! Sushi',
+    'city': 'Brantford',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N3R 6Y1',
+    'province_state': 'ON',
+    'street_address': '265 King George Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Hi! Sushi',
+    'city': 'Brantford',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'N3R 6Y1',
+    'province_state': 'ON',
+    'street_address': '265 King George Road'}
+
+====================
+INPUT
+business_name:Neulokal line1:3047 Dundas Street West line2: city:Toronto state:ON postal_code:M6P 1Z5 country:ca currency:cad email:neulokalsocial@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Neulokal',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6P 1Z5',
+    'province_state': 'ON',
+    'street_address': '3047 Dundas Street West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Neulokal',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6P 1Z5',
+    'province_state': 'ON',
+    'street_address': '3047 Dundas Street West'}
+
+====================
+INPUT
+business_name:PETRO-CANADA line1:5600 MAINWAY line2: city:BURLINGTON state:ON postal_code:L7L6C4 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'PETRO-CANADA',
+    'city': 'BURLINGTON',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L7L 6C4',
+    'province_state': 'ON',
+    'street_address': '5600 MAINWAY'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'PETRO-CANADA',
+    'city': 'BURLINGTON',
+    'country': 'CA',
+    'domains_related': ['petro-canada.com'],
+    'flag': 'certain',
+    'postal_code': 'L7L 6C4',
+    'province_state': 'ON',
+    'street_address': '5600 MAINWAY'}
+
+====================
+INPUT
+business_name:7-ELEVEN line1:111 CLARENCE ST line2: city:PORT COLBORNE state:ON postal_code:L3K3G2 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': '7-ELEVEN',
+    'city': 'Port Colborne',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3K 3G2',
+    'province_state': 'ON',
+    'street_address': '111 Clarence Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': '7-ELEVEN',
+    'city': 'PORT COLBORNE',
+    'country': 'ca',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'L3K 3G2',
+    'province_state': 'ON',
+    'street_address': '111 CLARENCE ST'}
+
+====================
+INPUT
+business_name:Mobil line1:355 SOUTHDALE RD W line2: city:london state:ON postal_code:n6j4g8 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Mobil',
+    'city': 'London',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N6J 4G8',
+    'province_state': 'ON',
+    'street_address': '355 SOUTHDALE RD W'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Mobil',
+    'city': 'London',
+    'country': 'ca',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'N6J 4G8',
+    'province_state': 'ON',
+    'street_address': '355 Southdale Road West'}
+
+====================
+INPUT
+business_name:SUNSET GRILL (27 & LANGSTAFF) line1:8280 HIGHWAY 27 line2: city:VAUGHAN state:ON postal_code:L4H 0R9 country:ca currency:cad email:gkassab2000@yahoo.ca linked_emails:
+OPENAI
+{   'business_identification_number': '788050',
+    'business_name': 'SUNSET GRILL (27 & LANGSTAFF)',
+    'city': 'VAUGHAN',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4H 0R9',
+    'province_state': 'ON',
+    'street_address': '8280 HIGHWAY 27'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'SUNSET GRILL',
+    'city': 'VAUGHAN',
+    'country': 'ca',
+    'domains_related': ['yahoo.ca'],
+    'flag': 'certain',
+    'postal_code': 'L4H 0R9',
+    'province_state': 'ON',
+    'street_address': '8280 HIGHWAY 27'}
+
+====================
+INPUT
+business_name:ANGUS VALLEY MONTESSORI SCHOOL line1:2460 BROCK ROAD #101 line2: city:PICKERING state:ONTARIO postal_code:L1X 0J1 country:ca currency:cad email:jmoving@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'ANGUS VALLEY MONTESSORI SCHOOL',
+    'city': 'PICKERING',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1X 0J1',
+    'province_state': 'ON',
+    'street_address': '2460 BROCK ROAD #101'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Angus Valley Montessori School',
+    'city': 'Pickering',
+    'country': 'ca',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L1X 0J1',
+    'province_state': 'ON',
+    'street_address': '2460 Brock Road 101'}
+
+====================
+INPUT
+business_name:Microbrasserie Pavillon Noir line1:756 Rue des Croisieres line2: city:La Baie state:Quebec postal_code:G7B 2X3 country:Canada currency:cad email:microdupav@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Microbrasserie Pavillon Noir',
+    'city': 'La Baie',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'G7B 2X3',
+    'province_state': 'QC',
+    'street_address': '756 Rue des Croisieres'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Microbrasserie Pavillon Noir',
+    'city': 'La Baie',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'G7B 2X3',
+    'province_state': 'QC',
+    'street_address': '756 Rue des Croisieres'}
+
+====================
+INPUT
+business_name:Toronto Ribfest line1:256 Centennial Park line2: city:Toronto state:ON postal_code:M9C 5N3 country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Toronto Ribfest',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M9C 5N3',
+    'province_state': 'ON',
+    'street_address': '256 Centennial Park'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Toronto Ribfest',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'M9C 5N3',
+    'province_state': 'ON',
+    'street_address': '256 Centennial Park'}
+
+====================
+INPUT
+business_name:Three Speed line1:1163 Bloor St. W. line2: city:Toronto state:Ontario postal_code:M6K 1M9 country:ca currency:cad email:pauljudson72@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Three Speed',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M9',
+    'province_state': 'ON',
+    'street_address': '1163 Bloor St. W.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Three Speed',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M9',
+    'province_state': 'Ontario',
+    'street_address': '1163 Bloor St. W.'}
+
+====================
+INPUT
+business_name:Huron Club Restaurant & Bar line1:94 Pine Street line2: city:Collingwood state:Ontario postal_code:L9Y 2N9 country:ca currency:cad email:huronclubmanager@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Huron Club Restaurant & Bar',
+    'city': 'Collingwood',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'ON',
+    'street_address': '94 Pine Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Huron Club Restaurant & Bar',
+    'city': 'Collingwood',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'Ontario',
+    'street_address': '94 Pine Street'}
+
+====================
+INPUT
+business_name:Royal Canadian Legion Branch 103 line1:34 Bridge Street line2: city:Campbellford state:Ontario postal_code:K0L 1L0 country:ca currency:cad email:blswelin@icloud.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Royal Canadian Legion Branch 103',
+    'city': 'Campbellford',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K0L 1L0',
+    'province_state': 'ON',
+    'street_address': '34 Bridge Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Royal Canadian Legion Branch 103',
+    'city': 'Campbellford',
+    'country': 'ca',
+    'domains_related': ['icloud.com'],
+    'flag': 'certain',
+    'postal_code': 'K0L 1L0',
+    'province_state': 'Ontario',
+    'street_address': '34 Bridge Street'}
+
+====================
+INPUT
+business_name:Dynamic Specialty Vehicles Ltd (c) line1: line2: city: state: postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Dynamic Specialty Vehicles Ltd',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Dynamic Specialty Vehicles Ltd',
+    'city': 'state',
+    'country': 'CA',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'ca',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Desolution Brewing Company line1:932 Stateline Avenue line2: city:South Lake Tahoe state:CA postal_code: country:ca currency:cad email:abarrera0314r@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '96150',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+====================
+INPUT
+business_name:Garage D'or Ciders Inc. line1:604 Bunting Road line2: city:St Catharines state:ON postal_code: country:ca currency:cad email:garagedorciders@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L2M 3Y2',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+====================
+INPUT
+business_name:Royal Palm Brewing Company line1:543 N SR 7 line2: city:Royal Palm Beach state:FL postal_code: country:ca currency:cad email:royalpalmbrewing@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': 'FL',
+    'street_address': '543 N SR 7'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'ca',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': '12345',
+    'province_state': 'FL',
+    'street_address': '543 North State Road 7'}
+
+====================
+INPUT
+business_name:Solorio Brewing Company line1:9395 Feron Blvd line2: city:Rancho Cucamonga state:CA postal_code: country:ca currency:cad email:raul.solorio@ymail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '91730',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Blvd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'ca',
+    'domains_related': ['ymail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Boulevard'}
+
+====================
+INPUT
+business_name:Shell #C07079 line1:520 King St W line2: city:Oshawa state:ON postal_code:L1J 2K9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '07079',
+    'business_name': 'Shell',
+    'city': 'Oshawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1J 2K9',
+    'province_state': 'ON',
+    'street_address': '520 King St W'}
+
+COHERE
+{   'business_identification_number': 'C07079',
+    'business_name': 'Shell',
+    'city': 'Oshawa',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1J 2K9',
+    'province_state': 'ON',
+    'street_address': '520 King St W'}
+
+====================
+INPUT
+business_name:Petro Canada line1:5739 Highway 7 E line2: city:Markham state:ON postal_code:L3P 1A9 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Petro Canada',
+    'city': 'Markham',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3P 1A9',
+    'province_state': 'ON',
+    'street_address': '5739 Highway 7 E'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Petro Canada',
+    'city': 'Markham',
+    'country': 'CA',
+    'domains_related': ['ca'],
+    'flag': 'certain',
+    'postal_code': 'L3P 1A9',
+    'province_state': 'ON',
+    'street_address': '5739 Highway 7 E'}
+
+====================
+INPUT
+business_name:Red Lotus Restaurant line1:Central Parkway West line2: city:Mississauga state:ON postal_code:L5C 4P3 country:ca currency:cad email:danielxie1980@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '2730',
+    'business_name': 'Red Lotus Restaurant',
+    'city': 'Mississauga',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L5C 4P3',
+    'province_state': 'ON',
+    'street_address': 'Central Parkway West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Red Lotus Restaurant',
+    'city': 'Mississauga',
+    'country': 'ca',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L5C 4P3',
+    'province_state': 'ON',
+    'street_address': 'Central Parkway West'}
+
+====================
+INPUT
+business_name:Hi! Sushi line1:265 King George Rd line2: city:Brantford state:ON postal_code:N3R 6Y1 country:ca currency:cad email:hisushi265@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Hi! Sushi',
+    'city': 'Brantford',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N3R 6Y1',
+    'province_state': 'ON',
+    'street_address': '265 King George Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Hi! Sushi',
+    'city': 'Brantford',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'N3R 6Y1',
+    'province_state': 'ON',
+    'street_address': '265 King George Road'}
+
+====================
+INPUT
+business_name:Neulokal line1:3047 Dundas Street West line2: city:Toronto state:ON postal_code:M6P 1Z5 country:ca currency:cad email:neulokalsocial@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Neulokal',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6P 1Z5',
+    'province_state': 'ON',
+    'street_address': '3047 Dundas Street West'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Neulokal',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6P 1Z5',
+    'province_state': 'ON',
+    'street_address': '3047 Dundas Street West'}
+
+====================
+INPUT
+business_name:PETRO-CANADA line1:5600 MAINWAY line2: city:BURLINGTON state:ON postal_code:L7L6C4 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'PETRO-CANADA',
+    'city': 'BURLINGTON',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L7L 6C4',
+    'province_state': 'ON',
+    'street_address': '5600 MAINWAY'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'PETRO-CANADA',
+    'city': 'BURLINGTON',
+    'country': 'CA',
+    'domains_related': ['petro-canada.com'],
+    'flag': 'certain',
+    'postal_code': 'L7L 6C4',
+    'province_state': 'ON',
+    'street_address': '5600 MAINWAY'}
+
+====================
+INPUT
+business_name:7-ELEVEN line1:111 CLARENCE ST line2: city:PORT COLBORNE state:ON postal_code:L3K3G2 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': '7-ELEVEN',
+    'city': 'Port Colborne',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L3K 3G2',
+    'province_state': 'ON',
+    'street_address': '111 Clarence Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': '7-ELEVEN',
+    'city': 'PORT COLBORNE',
+    'country': 'ca',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'L3K 3G2',
+    'province_state': 'ON',
+    'street_address': '111 CLARENCE ST'}
+
+====================
+INPUT
+business_name:Mobil line1:355 SOUTHDALE RD W line2: city:london state:ON postal_code:n6j4g8 country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Mobil',
+    'city': 'London',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'N6J 4G8',
+    'province_state': 'ON',
+    'street_address': '355 SOUTHDALE RD W'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Mobil',
+    'city': 'London',
+    'country': 'ca',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'N6J 4G8',
+    'province_state': 'ON',
+    'street_address': '355 Southdale Road West'}
+
+====================
+INPUT
+business_name:SUNSET GRILL (27 & LANGSTAFF) line1:8280 HIGHWAY 27 line2: city:VAUGHAN state:ON postal_code:L4H 0R9 country:ca currency:cad email:gkassab2000@yahoo.ca linked_emails:
+OPENAI
+{   'business_identification_number': '788050',
+    'business_name': 'SUNSET GRILL (27 & LANGSTAFF)',
+    'city': 'VAUGHAN',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L4H 0R9',
+    'province_state': 'ON',
+    'street_address': '8280 HIGHWAY 27'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'SUNSET GRILL',
+    'city': 'VAUGHAN',
+    'country': 'ca',
+    'domains_related': ['yahoo.ca'],
+    'flag': 'certain',
+    'postal_code': 'L4H 0R9',
+    'province_state': 'ON',
+    'street_address': '8280 HIGHWAY 27'}
+
+====================
+INPUT
+business_name:ANGUS VALLEY MONTESSORI SCHOOL line1:2460 BROCK ROAD #101 line2: city:PICKERING state:ONTARIO postal_code:L1X 0J1 country:ca currency:cad email:jmoving@hotmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'ANGUS VALLEY MONTESSORI SCHOOL',
+    'city': 'PICKERING',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L1X 0J1',
+    'province_state': 'ON',
+    'street_address': '2460 BROCK ROAD #101'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Angus Valley Montessori School',
+    'city': 'Pickering',
+    'country': 'ca',
+    'domains_related': ['hotmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L1X 0J1',
+    'province_state': 'ON',
+    'street_address': '2460 Brock Road 101'}
+
+====================
+INPUT
+business_name:Microbrasserie Pavillon Noir line1:756 Rue des Croisieres line2: city:La Baie state:Quebec postal_code:G7B 2X3 country:Canada currency:cad email:microdupav@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Microbrasserie Pavillon Noir',
+    'city': 'La Baie',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'G7B 2X3',
+    'province_state': 'QC',
+    'street_address': '756 Rue des Croisieres'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Microbrasserie Pavillon Noir',
+    'city': 'La Baie',
+    'country': 'CA',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'G7B 2X3',
+    'province_state': 'QC',
+    'street_address': '756 Rue des Croisieres'}
+
+====================
+INPUT
+business_name:Toronto Ribfest line1:256 Centennial Park line2: city:Toronto state:ON postal_code:M9C 5N3 country: currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Toronto Ribfest',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M9C 5N3',
+    'province_state': 'ON',
+    'street_address': '256 Centennial Park'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Toronto Ribfest',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['linked_emails'],
+    'flag': 'certain',
+    'postal_code': 'M9C 5N3',
+    'province_state': 'ON',
+    'street_address': '256 Centennial Park'}
+
+====================
+INPUT
+business_name:Three Speed line1:1163 Bloor St. W. line2: city:Toronto state:Ontario postal_code:M6K 1M9 country:ca currency:cad email:pauljudson72@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Three Speed',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M9',
+    'province_state': 'ON',
+    'street_address': '1163 Bloor St. W.'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Three Speed',
+    'city': 'Toronto',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'M6K 1M9',
+    'province_state': 'Ontario',
+    'street_address': '1163 Bloor St. W.'}
+
+====================
+INPUT
+business_name:Huron Club Restaurant & Bar line1:94 Pine Street line2: city:Collingwood state:Ontario postal_code:L9Y 2N9 country:ca currency:cad email:huronclubmanager@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Huron Club Restaurant & Bar',
+    'city': 'Collingwood',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'ON',
+    'street_address': '94 Pine Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Huron Club Restaurant & Bar',
+    'city': 'Collingwood',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'L9Y 2N9',
+    'province_state': 'Ontario',
+    'street_address': '94 Pine Street'}
+
+====================
+INPUT
+business_name:Royal Canadian Legion Branch 103 line1:34 Bridge Street line2: city:Campbellford state:Ontario postal_code:K0L 1L0 country:ca currency:cad email:blswelin@icloud.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Royal Canadian Legion Branch 103',
+    'city': 'Campbellford',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'K0L 1L0',
+    'province_state': 'ON',
+    'street_address': '34 Bridge Street'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Royal Canadian Legion Branch 103',
+    'city': 'Campbellford',
+    'country': 'ca',
+    'domains_related': ['icloud.com'],
+    'flag': 'certain',
+    'postal_code': 'K0L 1L0',
+    'province_state': 'Ontario',
+    'street_address': '34 Bridge Street'}
+
+====================
+INPUT
+business_name:Dynamic Specialty Vehicles Ltd (c) line1: line2: city: state: postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Dynamic Specialty Vehicles Ltd',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Dynamic Specialty Vehicles Ltd',
+    'city': 'state',
+    'country': 'CA',
+    'domains_related': ['linked_emails.com'],
+    'flag': 'certain',
+    'postal_code': 'ca',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Desolution Brewing Company line1:932 Stateline Avenue line2: city:South Lake Tahoe state:CA postal_code: country:ca currency:cad email:abarrera0314r@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '96150',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+====================
+INPUT
+business_name:Garage D'or Ciders Inc. line1:604 Bunting Road line2: city:St Catharines state:ON postal_code: country:ca currency:cad email:garagedorciders@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L2M 3Y2',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+====================
+INPUT
+business_name:Royal Palm Brewing Company line1:543 N SR 7 line2: city:Royal Palm Beach state:FL postal_code: country:ca currency:cad email:royalpalmbrewing@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': 'FL',
+    'street_address': '543 N SR 7'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'ca',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': '12345',
+    'province_state': 'FL',
+    'street_address': '543 North State Road 7'}
+
+====================
+INPUT
+business_name:Solorio Brewing Company line1:9395 Feron Blvd line2: city:Rancho Cucamonga state:CA postal_code: country:ca currency:cad email:raul.solorio@ymail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '91730',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Blvd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'ca',
+    'domains_related': ['ymail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Boulevard'}
+
+====================

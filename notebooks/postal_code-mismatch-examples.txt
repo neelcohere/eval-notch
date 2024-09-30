@@ -1,0 +1,226 @@
+
+INPUT
+business_name:Jason Saunders line1:271 Cornwall Rd Unit 101A line2: city:Toronto state: postal_code: country:ca currency:cad email:JSaunders@charcoalgroup.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Jason Saunders',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['charcoalgroup.ca'],
+    'flag': 'certain',
+    'postal_code': 'M2L 3M9',
+    'province_state': 'ON',
+    'street_address': '271 Cornwall Rd, Unit 101A'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Jason Saunders',
+    'city': 'Toronto',
+    'country': 'CA',
+    'domains_related': ['charcoalgroup.ca'],
+    'flag': 'certain',
+    'postal_code': 'M1W G8L',
+    'province_state': 'ON',
+    'street_address': '271 Cornwall Rd Unit 101A'}
+
+====================
+INPUT
+business_name:Yukon Liquor Corporation line1: line2: city: state: postal_code: country:ca currency:cad email:accounting@acebeveragegroup.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Yukon Liquor Corporation',
+    'city': '',
+    'country': 'CA',
+    'domains_related': ['acebeveragegroup.com'],
+    'flag': 'certain',
+    'postal_code': '',
+    'province_state': '',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Yukon Liquor Corporation',
+    'city': 'state',
+    'country': 'CA',
+    'domains_related': ['acebeveragegroup.com'],
+    'flag': 'certain',
+    'postal_code': 'ca',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Zola's line1:Zolas Restaurant line2:2194 Robertson Rd city:Ottawa state:Ontario postal_code: country: currency:cad email:tony@zolas.ca linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': "Zola's",
+    'city': 'Ottawa',
+    'country': 'CA',
+    'domains_related': ['zolas.ca'],
+    'flag': 'certain',
+    'postal_code': 'K2H 9J5',
+    'province_state': 'ON',
+    'street_address': '2194 Robertson Rd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Zola's Restaurant",
+    'city': 'Ottawa',
+    'country': 'CA',
+    'domains_related': ['zolas.ca'],
+    'flag': 'certain',
+    'postal_code': 'ON',
+    'province_state': 'Ontario',
+    'street_address': '2194 Robertson Rd'}
+
+====================
+INPUT
+business_name:YTG-Unknown line1: line2: city: state: postal_code: country:ca currency:cad email: linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'YTG-Unknown',
+    'city': '',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': 'CA',
+    'street_address': ''}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'YTG',
+    'city': 'Unknown',
+    'country': 'ca',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': '',
+    'street_address': 'line1 line2'}
+
+====================
+INPUT
+business_name:Desolution Brewing Company line1:932 Stateline Avenue line2: city:South Lake Tahoe state:CA postal_code: country:ca currency:cad email:abarrera0314r@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '96150',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Desolution Brewing Company',
+    'city': 'South Lake Tahoe',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'likely',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '932 Stateline Avenue'}
+
+====================
+INPUT
+business_name:Garage D'or Ciders Inc. line1:604 Bunting Road line2: city:St Catharines state:ON postal_code: country:ca currency:cad email:garagedorciders@gmail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'CA',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': 'L2M 3Y2',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': "Garage D'or Ciders Inc.",
+    'city': 'St Catharines',
+    'country': 'ca',
+    'domains_related': ['gmail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'ON',
+    'street_address': '604 Bunting Road'}
+
+====================
+INPUT
+business_name:Ish Brewing Company line1:6741 West Princeton line2: city:Clovis state:CA postal_code: country:ca currency:cad email:kevin@ishbrewing.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Ish Brewing Company',
+    'city': 'Clovis',
+    'country': 'US',
+    'domains_related': ['ishbrewing.com'],
+    'flag': 'certain',
+    'postal_code': '93619',
+    'province_state': 'CA',
+    'street_address': '6741 West Princeton'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Ish Brewing Company',
+    'city': 'Clovis',
+    'country': 'CA',
+    'domains_related': ['ishbrewing.com'],
+    'flag': 'certain',
+    'postal_code': '93612',
+    'province_state': 'CA',
+    'street_address': '6741 West Princeton'}
+
+====================
+INPUT
+business_name:Royal Palm Brewing Company line1:543 N SR 7 line2: city:Royal Palm Beach state:FL postal_code: country:ca currency:cad email:royalpalmbrewing@yahoo.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'cannot extract',
+    'postal_code': '',
+    'province_state': 'FL',
+    'street_address': '543 N SR 7'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Royal Palm Brewing Company',
+    'city': 'Royal Palm Beach',
+    'country': 'ca',
+    'domains_related': ['yahoo.com'],
+    'flag': 'certain',
+    'postal_code': '12345',
+    'province_state': 'FL',
+    'street_address': '543 North State Road 7'}
+
+====================
+INPUT
+business_name:Solorio Brewing Company line1:9395 Feron Blvd line2: city:Rancho Cucamonga state:CA postal_code: country:ca currency:cad email:raul.solorio@ymail.com linked_emails:
+OPENAI
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'US',
+    'domains_related': [],
+    'flag': 'certain',
+    'postal_code': '91730',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Blvd'}
+
+COHERE
+{   'business_identification_number': '',
+    'business_name': 'Solorio Brewing Company',
+    'city': 'Rancho Cucamonga',
+    'country': 'ca',
+    'domains_related': ['ymail.com'],
+    'flag': 'certain',
+    'postal_code': 'CA',
+    'province_state': 'CA',
+    'street_address': '9395 Feron Boulevard'}
+
+====================
